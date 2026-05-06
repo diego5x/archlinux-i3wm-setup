@@ -1,2 +1,2 @@
 # archlinux_i3wm_setup
-Script e configurações para instalar e personalizar um ambiente Arch Linux com i3wm.
+Repositório com scripts, dotfiles e instruções para configurar um ambiente Arch Linux com i3wm, incluindo ferramentas essenciais, temas e ajustes para um workflow leve e eficiente.
