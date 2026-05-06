@@ -1,0 +1,10 @@
+#! /usr/bin/env bash
+
+case $BLOCK_BUTTON in
+    1)
+        yad --calendar \
+            --title="Calendário" \
+        ;;
+esac
+
+date '+%a %d %b %H:%M'
