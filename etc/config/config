@@ -1,0 +1,44 @@
+#######################
+# GENERAL SETTINGS
+#######################
+
+font pango: Noto Sans Regular 10
+
+set $mod Mod4
+
+#####################
+# WORKSPACE LAYOUT
+#####################
+
+workspace_layout default
+
+##############################
+# WINDOWS
+##############################
+
+new_window pixel 1
+
+gaps inner 6
+gaps outer 3
+
+floating_modifier $mod
+
+#############################
+# WORKSPACES
+#############################
+
+set $ws1 "1:Ⅰ"
+set $ws2 "2:Ⅱ"
+set $ws3 "3:Ⅲ"
+set $ws4 "4:Ⅳ"
+set $ws5 "5:Ⅴ"
+set $ws6 "6:Ⅵ"
+set $ws7 "7:Ⅶ"
+set $ws8 "8:Ⅷ"
+set $ws9 "9:Ⅸ"
+set $ws10 "10:Ⅹ"
+
+include ~/.config/i3/i3-keybinds.conf
+include ~/.config/i3/i3-windowrules.conf
+include ~/.config/i3/i3-exec.conf
+include ~/.config/i3/i3-colors.conf
